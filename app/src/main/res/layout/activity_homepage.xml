@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGray"
+    tools:context=".Homepage">
+
+    <View
+        android:id="@+id/bg_green"
+        android:layout_width="412dp"
+        android:layout_height="350dp"
+        android:background="@drawable/kotak"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textmbako"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginLeft="164dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/montserratbold"
+        android:text="@string/text_mbako"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/lokasipasar"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako"
+        tools:layout_editor_absoluteX="44dp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/sp_pasar_home"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_round_gray"
+        android:entries="@array/array_pasar"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp" />
+
+    <View
+        android:id="@+id/view_pangan"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/rectangle_pangan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako" />
+
+    <TextView
+        android:id="@+id/textpangan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="172dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_pilih_pangan"
+        android:textColor="@color/colorGreen"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textmbako" />
+
+    <Button
+        android:id="@+id/btn_beras"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/ricebowl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_beras"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btn_telur"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/egg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_telur"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_garam"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/salt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="284dp"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="400dp"
+        android:fontFamily="@font/montserratregular"
+        android:text="@string/text_garam"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_minyak"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/oliveoil"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="532dp"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center_horizontal"
+        android:text="Minyak\nGoreng"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_gula"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginLeft="172dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/sugarcube"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="532dp"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center_horizontal"
+        android:text="@string/text_gula"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_susu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginLeft="276dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/milk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="290dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="532dp"
+        android:fontFamily="@font/montserratregular"
+        android:gravity="center_horizontal"
+        android:text="@string/text_susu"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/rectangle_pangan"
+        app:layout_constraintTop_toBottomOf="@+id/view_pangan"
+        tools:layout_editor_absoluteX="1dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/house"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="90dp"
+                    android:layout_marginLeft="70dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Beranda"
+                    android:fontFamily="@font/montserratregular"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorGreen"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="87dp"
+                    android:layout_marginLeft="87dp"/>
+
+
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

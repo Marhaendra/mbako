@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "401626904312",
+    "firebase_url": "https://fir-mbako.firebaseio.com",
+    "project_id": "fir-mbako",
+    "storage_bucket": "fir-mbako.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401626904312:android:a901ea11a87fc1e280ed0d",
+        "android_client_info": {
+          "package_name": "com.papb.mbako"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401626904312-dr30ea100nk18p2iqbljtj8a1l4oq50g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGw7Xo8lAZMyWWgjFQZSbYbpRawS4XHR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401626904312-dr30ea100nk18p2iqbljtj8a1l4oq50g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
